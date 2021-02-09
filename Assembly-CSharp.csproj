@@ -66,18 +66,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Bat\BatMovement.cs" />
     <Compile Include="Assets\Scripts\Bat\IdleBat.cs" />
-    <Compile Include="Assets\Scripts\Buttons\Controls.cs" />
-    <Compile Include="Assets\Scripts\Buttons\Credit.cs" />
-    <Compile Include="Assets\Scripts\Buttons\CreditArt.cs" />
-    <Compile Include="Assets\Scripts\Buttons\CreditSFX.cs" />
-    <Compile Include="Assets\Scripts\Buttons\InteractableManage.cs" />
     <Compile Include="Assets\Scripts\Buttons\Level1Button.cs" />
     <Compile Include="Assets\Scripts\Buttons\LoadLauncher.cs" />
     <Compile Include="Assets\Scripts\Buttons\Quit.cs" />
     <Compile Include="Assets\Scripts\Buttons\Start.cs" />
     <Compile Include="Assets\Scripts\Character\HappinessScript.cs" />
-    <Compile Include="Assets\Scripts\Character\JumpCooldown.cs" />
-    <Compile Include="Assets\Scripts\Character\LevelLog.cs" />
     <Compile Include="Assets\Scripts\Character\LifeCount.cs" />
     <Compile Include="Assets\Scripts\Character\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Checkpoint\CheckPoint.cs" />
@@ -92,51 +85,41 @@
     <Compile Include="Assets\Scripts\NPC\TutorialNPC\TutorialNPC.cs" />
     <Compile Include="Assets\Scripts\NPC\TutorialNPC\TutorialNPC2.cs" />
     <Compile Include="Assets\Scripts\NPC\TutorialNPC\TutorialNPC3.cs" />
-    <Compile Include="Assets\Scripts\Persistent\Retry.cs" />
-    <Compile Include="Assets\Scripts\Persistent\RetryButton.cs" />
-    <Compile Include="Assets\Scripts\Persistent\StopDuplicate.cs" />
-    <Compile Include="Assets\Scripts\SaveLoad\PlayerSettings.cs" />
-    <Compile Include="Assets\Scripts\Tutorial Cutscene\CutsceneTrigger.cs" />
     <None Include="Assets\Art\Tileset\about.txt" />
-    <None Include="Assets\Art\SimplePixelUI\fonts\Font1\readme.txt" />
-    <None Include="Assets\Art\parallax_demon_woods_pack\parallax_demon_woods_pack\license.txt" />
-    <None Include="Assets\Art\SimplePixelUI\fonts\Font2\license.txt" />
-    <None Include="Assets\Art\SimplePixelUI\fonts\Font2\readme.txt" />
     <None Include="Assets\Art\Tutorial Level NPC\EVil Wizard 2\License.txt" />
     <None Include="Assets\Art\NPC\license.txt" />
-    <None Include="Assets\Art\SimplePixelUI\fonts\Font1\license.txt" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>G:/University/2nd Year/Computer Games Design/Coninuing Week6/Week6ThingsContinued/Week6/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>G:/University/2nd Year/Computer Games Design/Week6Things/Week6/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>G:/University/2nd Year/Computer Games Design/Coninuing Week6/Week6ThingsContinued/Week6/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>G:/University/2nd Year/Computer Games Design/Week6Things/Week6/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>G:/University/2nd Year/Computer Games Design/Coninuing Week6/Week6ThingsContinued/Week6/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>G:/University/2nd Year/Computer Games Design/Week6Things/Week6/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>G:/University/2nd Year/Computer Games Design/Coninuing Week6/Week6ThingsContinued/Week6/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>G:/University/2nd Year/Computer Games Design/Week6Things/Week6/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>G:/University/2nd Year/Computer Games Design/Coninuing Week6/Week6ThingsContinued/Week6/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>G:/University/2nd Year/Computer Games Design/Week6Things/Week6/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>G:/University/2nd Year/Computer Games Design/Coninuing Week6/Week6ThingsContinued/Week6/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>G:/University/2nd Year/Computer Games Design/Week6Things/Week6/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>G:/University/2nd Year/Computer Games Design/Coninuing Week6/Week6ThingsContinued/Week6/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>G:/University/2nd Year/Computer Games Design/Week6Things/Week6/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>G:/University/2nd Year/Computer Games Design/Coninuing Week6/Week6ThingsContinued/Week6/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>G:/University/2nd Year/Computer Games Design/Week6Things/Week6/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>G:/University/2nd Year/Computer Games Design/Coninuing Week6/Week6ThingsContinued/Week6/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>G:/University/2nd Year/Computer Games Design/Week6Things/Week6/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>G:/University/2nd Year/Computer Games Design/Coninuing Week6/Week6ThingsContinued/Week6/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>G:/University/2nd Year/Computer Games Design/Week6Things/Week6/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>G:/University/2nd Year/Computer Games Design/Coninuing Week6/Week6ThingsContinued/Week6/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>G:/University/2nd Year/Computer Games Design/Week6Things/Week6/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Unity Versions/2019.2.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
